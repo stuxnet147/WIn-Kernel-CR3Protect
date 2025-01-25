@@ -2,8 +2,6 @@
 
 A minimal CR3 protection **proof-of-concept (PoC)** for implementing CR3 protection in the Windows kernel by hooking the `KdpTrap` function.
 
----
-
 ## Implementation Overview
 
 ### 1. Hooking the KdpTrap
@@ -23,19 +21,13 @@ When a CR3 write instruction (`mov cr3, ...`) is encountered:
 3. **Decide** whether to allow or override the new CR3 based on the process.
 4. **Apply** the final CR3 value to the process.
 
----
-
 ## Limitations
 
 - **Windows Version Compatibility**: Offsets for `KdpTrap` vary by OS build. Update the hooking offset to match your os version.
 - **PG**: Might break on future versions of Windows.
 
----
-
 ## Further Reading
 https://github.com/SamuelTulach/HookGuard
-
----
 
 ## Disclaimer
 
