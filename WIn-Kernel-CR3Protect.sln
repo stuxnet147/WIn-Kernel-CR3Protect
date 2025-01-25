@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WIn-Kernel-CR3Protect", "WIn-Kernel-CR3Protect.vcxproj", "{C6E2A825-FC37-EBB9-BCE3-8FCFA64AB062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6E2A825-FC37-EBB9-BCE3-8FCFA64AB062}.Release|x64.ActiveCfg = Release|x64
+		{C6E2A825-FC37-EBB9-BCE3-8FCFA64AB062}.Release|x64.Build.0 = Release|x64
+		{C6E2A825-FC37-EBB9-BCE3-8FCFA64AB062}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E80294EB-43E4-4DA5-8631-1B38B27C568B}
+	EndGlobalSection
+EndGlobal
